@@ -15,19 +15,19 @@ function DolarBlue() {
 
   return (
     <div className="container text-center mt-5 dolar-card">
-      <h1 style={{ color: "#000080" }}>Dolar Blue</h1>
-      <div className="d-flex justify-content-center align-items-center">
+      <h1 class="site-title"  style={{ color: "#000080" }}>Dolar Blue</h1>
+      <div >
         <div className="row">
           <div className="col">
-            <h1>${valorCompra}</h1>
-            <p className="fs-4 fw-bold">Compra</p>
+          <h1 class="value">${valorCompra}</h1>
+            <p className="title">Compra</p>
           </div>
           <div className="col">
-            <h1>${valorVenta}</h1>
-            <p className="fs-4 fw-bold">Venta</p>
+            <h1 class="value">${valorVenta}</h1>
+            <p className="title">Venta</p>
             <div className="col">
-            <h1>${ (valorVenta + valorCompra) / 2}</h1>
-            <p className="fs-4 fw-bold">Valor Medio</p>
+            <h1 class="value" >${ (valorVenta + valorCompra) / 2}</h1>
+            <p className="title">Valor Medio</p>
           </div>
           </div>
         </div>
