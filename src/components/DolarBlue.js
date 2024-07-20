@@ -15,7 +15,7 @@ function DolarBlue() {
 
   return (
     <div className="container text-center mt-5 dolar-card">
-      <h1 class="site-title"  style={{ color: "#000080" }}>Dolar Blue</h1>
+      <h1 class="site-title"  style={{ color: "#000080" }}>Dolar Blue.</h1>
       <div >
             <p className="title">Compra</p>
             <h1 class="value">${valorCompra}</h1>
